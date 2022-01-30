@@ -1,0 +1,17 @@
+Hardhat이란?
+compile, deploy, test를 모두 진행할 수 있는 이더리움 개발 프레임워크
+
+장점:
+1. 검증 자동화
+2. Typechain 이용 -> Typescript가능
+3. console.log 사용 가능
+
+Truffle 단점
+1. 검증과정 불편
+2. Typescript 지원 부족
+
+참조:
+https://tech.elysia.land/hardhat%EA%B3%BC-typechain%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%9C-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8-%EA%B0%9C%EB%B0%9C-d7e8fc66d1d2
+
+사용후기
+https://github.com/Hyuna13/Solidity/tree/main/hardhat-tutorial
