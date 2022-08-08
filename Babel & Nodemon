@@ -1,0 +1,6 @@
+Babel이란
+Babel은 JavaScript compiler이다.
+node가 JavaScript의 최신문법을 이해할 수 있도록 도와준다
+
+Nodemon이란
+코드가 변경될때, 서버를 껐다 켰다 하지마않고 바로 감지하여 재시작해주는 도구이다.
