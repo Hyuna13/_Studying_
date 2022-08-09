@@ -1,0 +1,11 @@
+HTTP와 WebSocket의 차이
+
+HTTP란
+인터넷에서 데이터를 주고받을 수 있는 프로토콜
+client < -------- > server 간에 request와 response형태로 작동한다.
+하지만 HTTP프로토콜을 사용할 경우 server는 user가 누군지 기억하지 못한다.(stateless)(Auth, Cookie를 사용하는 이유)
+
+WebSocket이란
+HTTP와 다르게 browser와 server는 언제든지 양방향 통신이 가능하다.
+user를 기억하고있고, browser-server, server-server끼리 통신도 가능하다.(stateful)
+
