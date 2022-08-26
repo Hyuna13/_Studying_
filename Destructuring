@@ -1,0 +1,33 @@
+Destructuring이란
+배열의 값 또는 객체의 속성을 풀어서 별개의 변수로 쓸 수있게 해주는 표현식이다.
+
+1.객체 디스트럭처링
+const person = {
+  name: "Hyuna",
+  age: 21,
+  links: {
+    social: {
+      twitter: "https://www.twitter.com/~
+    }
+  }
+};
+
+const {name, age} = person;
+const {twitter} = person.links.social;
+변수이름을 바꾸려면
+const {twitter: tw} = personl.links.social;
+
+2.배열 디스트럭처링
+const person = ["Hyuna", "Bae", 21];
+const [name, surname, age] = person;
+
+const person = ["Hyuna", "Bae", 21, "pizza", "burger", "salad"];
+const [name, surname, age ...food] = person; //레프트 연산자 사용
+
+3.변수 교체
+let a = "hi";
+let b = "bye";
+
+[a, b] = [b, a]
+console.log(a, b) ==> bye, hi
+
