@@ -1,0 +1,13 @@
+Bcrypt이란
+패스워드 암호화 알고리즘
+
+Facebook authenticatification을 구현하면서 비밀번호의 암호화가 필요해짐.
+
+// bcrypt 불러오기
+const bcrypt = require("bcrypt")
+
+// 해시 함수 암호화
+const encrypted = bcrypt.hash("password", n(반복))
+
+ex)
+const cryptedPassword = bcrypt.hash(password, 12);
