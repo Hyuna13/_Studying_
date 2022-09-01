@@ -1,0 +1,7 @@
+PeerJS란
+PeerJS는 WebRTC를 쉽게 사용하기 위해 만들어진 라이브러리이자 wrapper.
+
+객체를 생성할때 고유id가 필요하고 그 id로 유저끼리 연결.
+var peer = new Peer();
+
+ZOOM을 만들어보면서 사용하게됨.
