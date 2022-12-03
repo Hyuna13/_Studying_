@@ -1,0 +1,7 @@
+URL (Uniform Resource Locator)
+특정 웹 서버의 특정파일에 접근하기 위한 경로 혹은 주소
+
+접근프로토콜 / IP주소, 포트번호 또는 도메인 이름 / 문서의 경로() / 문서 이름
+https://www.github.com/Hyuna13/index.html
+
+집에는 하나의 IP주소 존재, 여러 방에는 각각의 포트번호/서버 존재
